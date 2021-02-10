@@ -10,6 +10,5 @@ while True:
         t.forward(100)
         t.right(angle)
     t.home()
-    t.clear()
+    turtle.bye()
     turtle.mainloop()
-turtle.bye()
