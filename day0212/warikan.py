@@ -4,8 +4,14 @@ def btn_click(x,y):
 
 root=tk.Tk()
 root.title("割り勘くん")
-root.geometry('600x600')
+root.geometry('400x200')
 
-button=tk.Button(text="計算する")
-button.place(x=10,y=200)
+entry=tk.Entry(width=20)
+entry.pack()
+
+entry=tk.Entry(width=20)
+entry.pack()
+
+button=tk.Button(text="計算する",command=btn_click)
+button.pack()
 root.mainloop()
