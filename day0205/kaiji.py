@@ -12,7 +12,7 @@ while True:
     num=input('カード選択「市民」なら「0」,「奴隷」なら「1」を入力>>')
     print('カードオープン')
     input('>>enter')
-    num2=r.randint(0,2,2)
+    num2=r.randint(0,3,2)
     print(f'あなた:{card[num]} PC:{card[num2]}')
     player.remove(num)
     computer.remove(num2)
