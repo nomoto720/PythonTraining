@@ -1,7 +1,6 @@
 import random as r
 print('****宝探し****')
 count=0
-
 table=[i for i in range(1,10)]
 hit=r.randrange(9)
 while True:
@@ -25,6 +24,4 @@ while True:
         else:
             print('ここより小さな数字の場所にあります')
         table[select-1]='X'
-
 print(f'あなたはお宝を{count}回発見しました!')
-
